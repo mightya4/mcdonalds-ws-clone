@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function downloadApp() {
+const DownloadApp = (props) => {
     return (
-        <div></div>
+        <div>
+           <a href="#">Download App</a>
+        </div>
     )
 }
+
+
+export default DownloadApp

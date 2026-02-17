@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function getHomepage() {
+const GetHomepage = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#"></a>
+        </div>
     )
 }
+
+
+export default GetHomepage

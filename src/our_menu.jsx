@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function displayOurMenu() {
+const DisplayOurMenu = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">Our Menu</a>
+        </div>
     )
 }
+
+
+export default DisplayOurMenu

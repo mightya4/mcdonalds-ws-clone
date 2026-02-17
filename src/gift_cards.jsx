@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function displayGiftCards() {
+const GetGiftCards = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">Gift Cards</a>
+        </div>
     )
 }
+
+
+export default GetGiftCards

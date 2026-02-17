@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function findYourRestaurant() {
+const FindYourRestaurant = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">Find Your Restaurant</a>
+        </div>
     )
 }
+
+
+export default FindYourRestaurant

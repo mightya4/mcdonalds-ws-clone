@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function displaySignUpForEmail() {
+const  DisplaySignUpForEmail = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">Sign Up for Email</a>
+        </div>
     )
 }
+
+
+export default DisplaySignUpForEmail

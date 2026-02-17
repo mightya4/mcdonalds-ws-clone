@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function getMyMcdonaldsRewards() {
+const GetMyMcdonaldsRewards = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">MyMcDonald's Rewards</a>
+        </div>
     )
 }
+
+
+export default GetMyMcdonaldsRewards

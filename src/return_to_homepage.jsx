@@ -1,7 +1,13 @@
 import { useState } from 'react'
 
-function returnToHomepage() {
+const ReturnToHomepage = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">M</a>
+        </div>
     )
+
 }
+
+
+export default ReturnToHomepage

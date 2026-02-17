@@ -1,7 +1,13 @@
 import { useState } from 'react'
 
-function submitOrderNow() {
+const SubmitOrderNow = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">Order Now</a>
+        </div>
+        
     )
 }
+
+
+export default SubmitOrderNow

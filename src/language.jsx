@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function changeLanguage() {
+const ChangeLanguage = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">Language</a>
+        </div>
     )
 }
+
+
+export default ChangeLanguage

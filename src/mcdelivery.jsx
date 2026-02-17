@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function getMcdelivery() {
+const GetMcdelivery = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">McDelivery</a>
+        </div>
     )
 }
+
+
+export default GetMcdelivery

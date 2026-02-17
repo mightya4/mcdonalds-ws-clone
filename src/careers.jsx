@@ -1,7 +1,11 @@
 import { useState } from 'react'
 
-function getCareers() {
+const DisplayCareers = (props) => {
     return (
-        <div></div>
-    )
+        <div>
+            <a href="#">Careers</a>
+        </div>
+);
 }
+
+export default DisplayCareers

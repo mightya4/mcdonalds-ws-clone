@@ -1,7 +1,12 @@
 import { useState } from 'react'
 
-function getMcvalueDeals() {
+const GetMcvalueDeals = (props) => {
     return (
-        <div></div>
+        <div>
+            <a href="#">McValue & Deals</a>
+        </div>
     )
 }
+
+
+export default GetMcvalueDeals
